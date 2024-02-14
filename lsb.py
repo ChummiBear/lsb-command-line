@@ -78,6 +78,7 @@ def check_verse():
 
     print(title.get_text() + " LSB")
 
+    # Poetry sections have multi-lined verses with no space after. This fixes that.
     for j in iclass:
         j.insert_after(" ")
 
